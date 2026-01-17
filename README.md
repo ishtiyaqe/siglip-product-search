@@ -26,6 +26,10 @@ source venv/bin/activate    # Linux/macOS
 # venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
+
+# Download the image dataset for training from this google drive link and extart it in "siglip-product-search" this folder
+https://drive.google.com/file/d/1Gk3EI6VxCOoUmJ_ymbJHi7scFTSdE24o/view?usp=sharing
+
 ```
 
 ## Requirements (requirements.txt summary)
@@ -111,17 +115,12 @@ huggingface-cli upload ishtiyaqe/siglip-product-search . --repo-type model
 
 
 
-## Todo / Roadmap
 
-- [ ] Upload fine-tuned weights to Hugging Face Hub
-- [ ] Add FAISS index building & search example
-- [ ] Gradio / Streamlit demo app
 
 ## Acknowledgments
 
 - Google Research — [SigLIP paper](https://arxiv.org/abs/2303.15343)
 - Amazon Berkeley Objects Dataset
-- Hugging Face Transformers team
 
 Made with ❤️ 
 
